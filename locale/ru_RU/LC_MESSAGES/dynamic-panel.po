@@ -15,125 +15,125 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.4.4\n"
 
-msgid "通用設定"
+msgid "General"
 msgstr "Общие настройки"
 
-msgid "懸浮模式"
+msgid "Floating Mode"
 msgstr "Плавающий режим"
 
-msgid "實體模式"
+msgid "Solid Mode"
 msgstr "Сплошной режим"
 
-msgid "左側"
+msgid "Left"
 msgstr "Слева"
 
-msgid "居中"
+msgid "Center"
 msgstr "По центру"
 
-msgid "右側"
+msgid "Right"
 msgstr "Справа"
 
-msgid "不透明度 (%)"
+msgid "Opacity (%)"
 msgstr "Непрозрачность (%)"
 
-msgid "應用面板樣式到面板選單"
+msgid "Apply panel style to panel menu"
 msgstr "Применить стиль панели к меню панели"
 
-msgid "面板圓角 (%)"
+msgid "Border Radius (%)"
 msgstr "Скругление углов (%)"
 
-msgid "面板長度 (%)"
+msgid "Panel Width (%)"
 msgstr "Ширина панели (%)"
 
-msgid "頂部邊距 (px)"
+msgid "Top Margin (px)"
 msgstr "Верхнее поле (px)"
 
-msgid "側面邊距 (px)"
+msgid "Side Margin (px)"
 msgstr "Боковое поле (px)"
 
-msgid "對齊方式"
+msgid "Align"
 msgstr "Выравнивание"
 
-msgid "自訂顏色"
+msgid "Custom Colors"
 msgstr "Настраиваемые цвета"
 
-msgid "暗黑模式"
+msgid "Dark Mode"
 msgstr "Темный режим"
 
-msgid "明亮模式"
+msgid "Light Mode"
 msgstr "Светлый режим"
 
-msgid "背景色"
+msgid "Background Color"
 msgstr "Цвет фона"
 
-msgid "前景色"
+msgid "Foreground Color"
 msgstr "Цвет переднего плана"
 
-msgid "應用自訂顏色"
+msgid "Apply Custom Colors"
 msgstr "Применить пользовательские цвета"
 
-msgid "動畫時長 (ms)"
+msgid "Duration (ms)"
 msgstr "Продолжительность (ms)"
 
-msgid "檢測方式"
+msgid "Detection Method"
 msgstr "Метод обнаружения"
 
-msgid "背景模式"
+msgid "Background Mode"
 msgstr "Фоновый режим"
 
-msgid "自動長度"
+msgid "Auto Width"
 msgstr "Автоматическая длина"
 
-msgid "實體類型"
+msgid "Solid Mode Type"
 msgstr "Тип объекта"
 
-msgid "實體模式保持透明度"
+msgid "Entity Mode Keep Transparency"
 msgstr "Сохранять прозрачность в сплошном режиме"
 
-msgid "敬請期待"
+msgid "Coming Soon"
 msgstr "Ожидайте"
 
-msgid "靠近"
+msgid "Window Close"
 msgstr "Закрыть окно"
 
-msgid "僅最大化"
+msgid "Maximize Only"
 msgstr "Только максимизировать"
 
-msgid "整體"
+msgid "Overall"
 msgstr "Весь"
 
-msgid "區域"
+msgid "Area"
 msgstr "Область"
 
-msgid "停靠"
+msgid "Dock"
 msgstr "Пристыковать"
 
-msgid "隱藏"
+msgid "Hide"
 msgstr "Скрыть"
 
-msgid "多彩"
+msgid "Multicolored"
 msgstr "Разноцветный"
 
-msgid "自動從桌布取得顏色"
+msgid "Automatically get color from wallpaper"
 msgstr "Автоматически получать цвет из обоев"
 
-msgid "模糊效果"
+msgid "Blur effect"
 msgstr "Размытие"
 
-msgid "無障礙設定"
+msgid "Accessibility"
 msgstr "Настройки доступности"
 
-msgid "盲點補丁"
+msgid "Easy Click Fix"
 msgstr "Простое исправление кликов"
 
-msgid "為懸浮模式添加額外點擊區域，以恢復絕對邊角的點擊能力"
+msgid "Add extra clickable areas for hover mode to restore clickability at absolute corners"
 msgstr "Добавить дополнительные области нажатия для режима зависания, чтобы восстановить возможность нажатия на абсолютные углы"
 
-msgid "總覽（左）"
+msgid "Overview (Left)"
 msgstr "Обзор (слева)"
 
-msgid "通知中心（中）"
+msgid "Notification Center (Middle)"
 msgstr "Центр уведомлений (в центре)"
 
-msgid "快速設定（右）"
+msgid "Quick Settings (Right)"
 msgstr "Быстрые настройки (справа)"

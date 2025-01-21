@@ -18,125 +18,125 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.4.4\n"
 
-msgid "通用設定"
+msgid "General"
 msgstr "Obecné nastavení"
 
-msgid "懸浮模式"
+msgid "Floating Mode"
 msgstr "Plovoucí režim"
 
-msgid "實體模式"
+msgid "Solid Mode"
 msgstr "Pevný režim"
 
-msgid "左側"
+msgid "Left"
 msgstr "Vlevo"
 
-msgid "居中"
+msgid "Center"
 msgstr "Střed"
 
-msgid "右側"
+msgid "Right"
 msgstr "Vpravo"
 
-msgid "不透明度 (%)"
+msgid "Opacity (%)"
 msgstr "Průhlednost (%)"
 
-msgid "應用面板樣式到面板選單"
+msgid "Apply panel style to panel menu"
 msgstr "Použít styl panelu na nabídku panelu"
 
-msgid "面板圓角 (%)"
+msgid "Border Radius (%)"
 msgstr "Poloměr ohraničení (%)"
 
-msgid "面板長度 (%)"
+msgid "Panel Width (%)"
 msgstr "Šířka panelu (%)"
 
-msgid "頂部邊距 (px)"
+msgid "Top Margin (px)"
 msgstr "Horní okraj (px)"
 
-msgid "側面邊距 (px)"
+msgid "Side Margin (px)"
 msgstr "Boční okraj (px)"
 
-msgid "對齊方式"
+msgid "Align"
 msgstr "Zarovnat"
 
-msgid "自訂顏色"
+msgid "Custom Colors"
 msgstr "Vlastní barvy"
 
-msgid "暗黑模式"
+msgid "Dark Mode"
 msgstr "Tmavý režim"
 
-msgid "明亮模式"
+msgid "Light Mode"
 msgstr "Světlý režim"
 
-msgid "背景色"
+msgid "Background Color"
 msgstr "Barva pozadí"
 
-msgid "前景色"
+msgid "Foreground Color"
 msgstr "Barva popředí"
 
-msgid "應用自訂顏色"
+msgid "Apply Custom Colors"
 msgstr "Použít vlastní barvy"
 
-msgid "動畫時長 (ms)"
+msgid "Duration (ms)"
 msgstr "Doba trvání (ms)"
 
-msgid "檢測方式"
+msgid "Detection Method"
 msgstr "Metoda detekce"
 
-msgid "背景模式"
+msgid "Background Mode"
 msgstr "Režim pozadí"
 
-msgid "自動長度"
+msgid "Auto Width"
 msgstr "Automatická délka"
 
-msgid "實體類型"
+msgid "Solid Mode Type"
 msgstr "Typ entity"
 
-msgid "實體模式保持透明度"
+msgid "Entity Mode Keep Transparency"
 msgstr "Zachovat průhlednost v pevném režimu"
 
-msgid "敬請期待"
+msgid "Coming Soon"
 msgstr "Již brzy"
 
-msgid "靠近"
+msgid "Window Close"
 msgstr "Zavřít okno"
 
-msgid "僅最大化"
+msgid "Maximize Only"
 msgstr "Pouze maximalizovat"
 
-msgid "整體"
+msgid "Overall"
 msgstr "Celkově"
 
-msgid "區域"
+msgid "Area"
 msgstr "Oblast"
 
-msgid "停靠"
+msgid "Dock"
 msgstr "Ukotvit"
 
-msgid "隱藏"
+msgid "Hide"
 msgstr "Skrýt"
 
-msgid "多彩"
+msgid "Multicolored"
 msgstr "Barevný"
 
-msgid "自動從桌布取得顏色"
+msgid "Automatically get color from wallpaper"
 msgstr "Automaticky získat barvu z tapety"
 
-msgid "模糊效果"
+msgid "Blur effect"
 msgstr "Efekt rozostření"
 
-msgid "無障礙設定"
+msgid "Accessibility"
 msgstr "Nastavení usnadnění"
 
-msgid "盲點補丁"
+msgid "Easy Click Fix"
 msgstr "Oprava kliknutí snadno"
 
-msgid "為懸浮模式添加額外點擊區域，以恢復絕對邊角的點擊能力"
+msgid "Add extra clickable areas for hover mode to restore clickability at absolute corners"
 msgstr "Přidat další klikací oblasti pro režim vznášení, aby se obnovila možnost klikání v absolutních rozích"
 
-msgid "總覽（左）"
+msgid "Overview (Left)"
 msgstr "Přehled (vlevo)"
 
-msgid "通知中心（中）"
+msgid "Notification Center (Middle)"
 msgstr "Centrum oznámení (uprostřed)"
 
-msgid "快速設定（右）"
+msgid "Quick Settings (Right)"
 msgstr "Rychlé nastavení (vpravo)"

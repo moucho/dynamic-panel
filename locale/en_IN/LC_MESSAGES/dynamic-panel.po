@@ -19,125 +19,125 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Gtranslator 46.1\n"
 
-msgid "通用設定"
+msgid "General"
 msgstr "General"
 
-msgid "懸浮模式"
+msgid "Floating Mode"
 msgstr "Floating Mode"
 
-msgid "實體模式"
+msgid "Solid Mode"
 msgstr "Solid Mode"
 
-msgid "左側"
+msgid "Left"
 msgstr "Left"
 
-msgid "居中"
+msgid "Center"
 msgstr "Center"
 
-msgid "右側"
+msgid "Right"
 msgstr "Right"
 
-msgid "不透明度 (%)"
+msgid "Opacity (%)"
 msgstr "Opacity (%)"
 
-msgid "應用面板樣式到面板選單"
+msgid "Apply panel style to panel menu"
 msgstr "Apply panel style to panel menu"
 
-msgid "面板圓角 (%)"
+msgid "Border Radius (%)"
 msgstr "Border Radius (%)"
 
-msgid "面板長度 (%)"
+msgid "Panel Width (%)"
 msgstr "Panel Width (%)"
 
-msgid "頂部邊距 (px)"
+msgid "Top Margin (px)"
 msgstr "Top Margin (px)"
 
-msgid "側面邊距 (px)"
+msgid "Side Margin (px)"
 msgstr "Side Margin (px)"
 
-msgid "對齊方式"
+msgid "Align"
 msgstr "Align"
 
-msgid "自訂顏色"
+msgid "Custom Colors"
 msgstr "Custom Colours"
 
-msgid "暗黑模式"
+msgid "Dark Mode"
 msgstr "Dark Mode"
 
-msgid "明亮模式"
+msgid "Light Mode"
 msgstr "Light Mode"
 
-msgid "背景色"
+msgid "Background Color"
 msgstr "Background Colour"
 
-msgid "前景色"
+msgid "Foreground Color"
 msgstr "Foreground Colours"
 
-msgid "應用自訂顏色"
+msgid "Apply Custom Colors"
 msgstr "Apply Custom Colours"
 
-msgid "動畫時長 (ms)"
+msgid "Duration (ms)"
 msgstr "Duration (ms)"
 
-msgid "檢測方式"
+msgid "Detection Method"
 msgstr "Detection Method"
 
-msgid "背景模式"
+msgid "Background Mode"
 msgstr "Background Mode"
 
-msgid "自動長度"
+msgid "Auto Width"
 msgstr "Auto Width"
 
-msgid "實體類型"
+msgid "Solid Mode Type"
 msgstr "Solid Mode Type"
 
-msgid "實體模式保持透明度"
+msgid "Entity Mode Keep Transparency"
 msgstr "Constant Entity Mode Transparency"
 
-msgid "敬請期待"
+msgid "Coming Soon"
 msgstr "Coming Soon"
 
-msgid "靠近"
+msgid "Window Close"
 msgstr "Window Proximity"
 
-msgid "僅最大化"
+msgid "Maximize Only"
 msgstr "Maximize Only"
 
-msgid "整體"
+msgid "Overall"
 msgstr "Continuous"
 
-msgid "區域"
+msgid "Area"
 msgstr "Separated"
 
-msgid "停靠"
+msgid "Dock"
 msgstr "Dock"
 
-msgid "隱藏"
+msgid "Hide"
 msgstr "Hide"
 
-msgid "多彩"
+msgid "Multicolored"
 msgstr "Multicoloured" 
 
-msgid "自動從桌布取得顏色"
+msgid "Automatically get color from wallpaper"
 msgstr "Automatically get colour from wallpaper" 
 
-msgid "模糊效果"
+msgid "Blur effect"
 msgstr "Blur effect"
 
-msgid "無障礙設定"
+msgid "Accessibility"
 msgstr "Accessibility"
 
-msgid "盲點補丁"
+msgid "Easy Click Fix"
 msgstr "Easy Click Fix"
 
-msgid "為懸浮模式添加額外點擊區域，以恢復絕對邊角的點擊能力"
+msgid "Add extra clickable areas for hover mode to restore clickability at absolute corners"
 msgstr "Add extra clickable areas for hover mode to restore clickability at absolute corners"
 
-msgid "總覽（左）"
+msgid "Overview (Left)"
 msgstr "Overview (Left)"
 
-msgid "通知中心（中）"
+msgid "Notification Center (Middle)"
 msgstr "Notification Centre (Middle)"
 
-msgid "快速設定（右）"
+msgid "Quick Settings (Right)"
 msgstr "Quick Settings (Right)"

@@ -8,19 +8,19 @@ export default class extends ExtensionPreferences {
     fillPreferencesWindow(window) {
         let settings = window._settings = this.getSettings();
 
-        const gCommon = new Adw.PreferencesGroup({ title: _("通用設定") });
+        const gCommon = new Adw.PreferencesGroup({ title: _("General") });
 
         // 檢測方式
         let cDetection = new Gtk.ComboBoxText();
-        cDetection.append_text(_("靠近"));
-        cDetection.append_text(_("僅最大化"));
+        cDetection.append_text(_("Window Close"));
+        cDetection.append_text(_("Maximize Only"));
         cDetection.connect('changed', (sw) => {
             let newVal = sw.get_active();
             if (newVal == settings.get_int('detection-mode')) return;
             settings.set_int('detection-mode', newVal);
         })
         cDetection.set_active(settings.get_int('detection-mode'));
-        let rowDetection = new Adw.ActionRow({ title: _('檢測方式') });
+        let rowDetection = new Adw.ActionRow({ title: _('Detection Method') });
         rowDetection.add_suffix(cDetection);
         gCommon.add(rowDetection);
 
@@ -42,7 +42,7 @@ export default class extends ExtensionPreferences {
 
         spSpeed.set_value(settings.get_int('duration'))
 
-        let rowSpeed = new Adw.ActionRow({ title: _('動畫時長 (ms)') });
+        let rowSpeed = new Adw.ActionRow({ title: _('Duration (ms)') });
         rowSpeed.add_suffix(spSpeed);
         gCommon.add(rowSpeed);
 
@@ -60,7 +60,7 @@ export default class extends ExtensionPreferences {
             }
         })
         sTransMenu.set_active(settings.get_boolean('transparent-menus'));
-        let rowTransMenu = new Adw.ActionRow({ title: _('應用面板樣式到面板選單') });
+        let rowTransMenu = new Adw.ActionRow({ title: _('Apply panel style to panel menu') });
         rowTransMenu.add_suffix(sTransMenu);
         gCommon.add(rowTransMenu);
 
@@ -73,7 +73,7 @@ export default class extends ExtensionPreferences {
             settings.set_boolean('transparent-menus-keep-alpha', state);
         })
         sTransMenuKeepAlpha.set_active(settings.get_boolean('transparent-menus-keep-alpha'));
-        let rowTransMenuKeepAlpha = new Adw.ActionRow({ title: "    " + _('實體模式保持透明度') });
+        let rowTransMenuKeepAlpha = new Adw.ActionRow({ title: "    " + _('Entity Mode Keep Transparency') });
         rowTransMenuKeepAlpha.add_suffix(sTransMenuKeepAlpha);
         gCommon.add(rowTransMenuKeepAlpha);
 
@@ -138,20 +138,20 @@ export default class extends ExtensionPreferences {
 
         sAutoBG.set_active(settings.get_boolean("auto-background"));
 
-        let rowColors = new Adw.ExpanderRow({ title: _('自訂顏色') });
-        let rowAutoBG = new Adw.ActionRow({ title: _("多彩"), subtitle: _("自動從桌布取得顏色") });
+        let rowColors = new Adw.ExpanderRow({ title: _('Custom Colors') });
+        let rowAutoBG = new Adw.ActionRow({ title: _("Multicolored"), subtitle: _("Automatically get color from wallpaper") });
         rowAutoBG.add_suffix(sAutoBG);
-        let rowDColors = new Adw.ExpanderRow({ title: _('暗黑模式') });
-        let rowDBGColor = new Adw.ActionRow({ title: _('背景色') });
+        let rowDColors = new Adw.ExpanderRow({ title: _('Dark Mode') });
+        let rowDBGColor = new Adw.ActionRow({ title: _('Background Color') });
         rowDBGColor.add_suffix(cDBGColor);
-        let rowDFGColor = new Adw.ActionRow({ title: _('前景色') });
+        let rowDFGColor = new Adw.ActionRow({ title: _('Foreground Color') });
         rowDFGColor.add_suffix(cDFGColor);
         rowDColors.add_row(rowDBGColor);
         rowDColors.add_row(rowDFGColor);
-        let rowLColors = new Adw.ExpanderRow({ title: _('明亮模式') });
-        let rowLBGColor = new Adw.ActionRow({ title: _('背景色') });
+        let rowLColors = new Adw.ExpanderRow({ title: _('Light Mode') });
+        let rowLBGColor = new Adw.ActionRow({ title: _('Background Color') });
         rowLBGColor.add_suffix(cLBGColor);
-        let rowLFGColor = new Adw.ActionRow({ title: _('前景色') });
+        let rowLFGColor = new Adw.ActionRow({ title: _('Foreground Color') });
         rowLFGColor.add_suffix(cLFGColor);
         rowLColors.add_row(rowLBGColor);
         rowLColors.add_row(rowLFGColor);
@@ -160,27 +160,27 @@ export default class extends ExtensionPreferences {
         rowColors.add_row(rowLColors);
         gCommon.add(rowColors)
 
-        const gFloating = new Adw.PreferencesGroup({ title: _("懸浮模式") });
+        const gFloating = new Adw.PreferencesGroup({ title: _("Floating Mode") });
 
         // 背景模式
         let cBackgroundMode = new Gtk.ComboBoxText();
-        cBackgroundMode.append_text(_("整體"));
-        cBackgroundMode.append_text(_("區域"));
+        cBackgroundMode.append_text(_("Overall"));
+        cBackgroundMode.append_text(_("Area"));
         cBackgroundMode.connect('changed', (sw) => {
             let newVal = sw.get_active();
             if (newVal == settings.get_int('background-mode')) return;
             settings.set_int('background-mode', newVal);
         })
         cBackgroundMode.set_active(settings.get_int('background-mode'));
-        let rowBackgroundMode = new Adw.ActionRow({ title: _('背景模式') });
+        let rowBackgroundMode = new Adw.ActionRow({ title: _('Background Mode') });
         rowBackgroundMode.add_suffix(cBackgroundMode);
         gFloating.add(rowBackgroundMode);
 
         // 對齊方式
         let cAlign = new Gtk.ComboBoxText()
-        cAlign.append_text(_("左側"))
-        cAlign.append_text(_("居中"))
-        cAlign.append_text(_("右側"))
+        cAlign.append_text(_("Left"))
+        cAlign.append_text(_("Center"))
+        cAlign.append_text(_("Right"))
         cAlign.connect('changed', (sw) => {
             let newVal = sw.get_active()
             if (newVal == settings.get_int('float-align')) return
@@ -192,7 +192,7 @@ export default class extends ExtensionPreferences {
             }
         })
         cAlign.set_active(settings.get_int('float-align'))
-        let rowAlign = new Adw.ActionRow({ title: _('對齊方式') });
+        let rowAlign = new Adw.ActionRow({ title: _('Align') });
         rowAlign.add_suffix(cAlign);
         gFloating.add(rowAlign);
 
@@ -210,7 +210,7 @@ export default class extends ExtensionPreferences {
             }
         })
         sAutoWidth.set_active(settings.get_boolean('auto-width'));
-        let rowAutoWidth = new Adw.ActionRow({ title: _('自動長度') });
+        let rowAutoWidth = new Adw.ActionRow({ title: _('Auto Width') });
         rowAutoWidth.add_suffix(sAutoWidth);
         gFloating.add(rowAutoWidth);
 
@@ -230,7 +230,7 @@ export default class extends ExtensionPreferences {
             settings.set_int('float-width', newVal)
         })
         sWidth.set_value(settings.get_int('float-width'))
-        let rowWidth = new Adw.ActionRow({ title: _('面板長度 (%)') });
+        let rowWidth = new Adw.ActionRow({ title: _('Panel Width (%)') });
         rowWidth.add_suffix(sWidth);
         gFloating.add(rowWidth);
 
@@ -250,7 +250,7 @@ export default class extends ExtensionPreferences {
             settings.set_int('radius-times', newVal)
         })
         sRadius.set_value(settings.get_int('radius-times'))
-        let rowRadius = new Adw.ActionRow({ title: _('面板圓角 (%)') });
+        let rowRadius = new Adw.ActionRow({ title: _('Border Radius (%)') });
         rowRadius.add_suffix(sRadius);
         gFloating.add(rowRadius);
 
@@ -270,7 +270,7 @@ export default class extends ExtensionPreferences {
             settings.set_int('transparent', newVal)
         })
         sTransparent.set_value(settings.get_int('transparent'))
-        let rowTransparent = new Adw.ActionRow({ title: _('不透明度 (%)') });
+        let rowTransparent = new Adw.ActionRow({ title: _('Opacity (%)') });
         rowTransparent.add_suffix(sTransparent);
         gFloating.add(rowTransparent);
 
@@ -283,7 +283,7 @@ export default class extends ExtensionPreferences {
             settings.set_boolean('blur', state);
         })
         sBlur.set_active(settings.get_boolean('blur'));
-        let rowBlur = new Adw.ActionRow({ title: _('模糊效果') });
+        let rowBlur = new Adw.ActionRow({ title: _('Blur effect') });
         rowBlur.add_suffix(sBlur);
         gFloating.add(rowBlur);
 
@@ -303,7 +303,7 @@ export default class extends ExtensionPreferences {
             settings.set_int('top-margin', newVal)
         });
         spTMargin.set_value(settings.get_int('top-margin'))
-        let rowTMargin = new Adw.ActionRow({ title: _('頂部邊距 (px)') });
+        let rowTMargin = new Adw.ActionRow({ title: _('Top Margin (px)') });
         rowTMargin.add_suffix(spTMargin);
         gFloating.add(rowTMargin);
 
@@ -323,23 +323,23 @@ export default class extends ExtensionPreferences {
             settings.set_int('side-margin', newVal)
         });
         spSMargin.set_value(settings.get_int('side-margin'))
-        let rowSMargin = new Adw.ActionRow({ title: _('側面邊距 (px)') });
+        let rowSMargin = new Adw.ActionRow({ title: _('Side Margin (px)') });
         rowSMargin.add_suffix(spSMargin);
         gFloating.add(rowSMargin);
 
-        const gSolid = new Adw.PreferencesGroup({ title: _("實體模式") });
+        const gSolid = new Adw.PreferencesGroup({ title: _("Solid Mode") });
 
         // 實體類型
         let cSolidType = new Gtk.ComboBoxText();
-        cSolidType.append_text(_("停靠"));
-        cSolidType.append_text(_("隱藏"));
+        cSolidType.append_text(_("Dock"));
+        cSolidType.append_text(_("Hide"));
         cSolidType.connect('changed', (sw) => {
             let newVal = sw.get_active();
             if (newVal == settings.get_int('solid-type')) return;
             settings.set_int('solid-type', newVal);
         })
         cSolidType.set_active(settings.get_int('solid-type'));
-        let rowSolidType = new Adw.ActionRow({ title: _('實體類型') });
+        let rowSolidType = new Adw.ActionRow({ title: _('Solid Mode Type') });
         rowSolidType.add_suffix(cSolidType);
         gSolid.add(rowSolidType);
 
@@ -352,13 +352,13 @@ export default class extends ExtensionPreferences {
             settings.set_boolean('colors-use-in-static', state);
         })
         sUseInStatic.set_active(settings.get_boolean('colors-use-in-static'))
-        let rowColorsUseInStatic = new Adw.ActionRow({ title: _('應用自訂顏色') });
+        let rowColorsUseInStatic = new Adw.ActionRow({ title: _('Apply Custom Colors') });
         rowColorsUseInStatic.add_suffix(sUseInStatic);
         gSolid.add(rowColorsUseInStatic);
 
-        const gAccessibility = new Adw.PreferencesGroup({ title: _("無障礙設定") });
+        const gAccessibility = new Adw.PreferencesGroup({ title: _("Accessibility") });
         // 盲點補丁
-        let rowTriggers = new Adw.ExpanderRow({ title: _('盲點補丁'), subtitle: _("為懸浮模式添加額外點擊區域，以恢復絕對邊角的點擊能力") });
+        let rowTriggers = new Adw.ExpanderRow({ title: _('Easy Click Fix'), subtitle: _("Add extra clickable areas for hover mode to restore clickability at absolute corners") });
         rowTriggers.expanded = true;
         // -- Left
         let sAddonTriggerL = new Gtk.Switch({
@@ -369,7 +369,7 @@ export default class extends ExtensionPreferences {
             settings.set_boolean('addon-trigger-left', state);
         })
         sAddonTriggerL.set_active(settings.get_boolean('addon-trigger-left'))
-        let rowAddonTriggerL = new Adw.ActionRow({ title: _('總覽（左）') });
+        let rowAddonTriggerL = new Adw.ActionRow({ title: _('Overview (Left)') });
         rowAddonTriggerL.add_suffix(sAddonTriggerL);
         rowTriggers.add_row(rowAddonTriggerL);
 
@@ -382,7 +382,7 @@ export default class extends ExtensionPreferences {
             settings.set_boolean('addon-trigger-center', state);
         })
         sAddonTriggerC.set_active(settings.get_boolean('addon-trigger-center'))
-        let rowAddonTriggerC = new Adw.ActionRow({ title: _('通知中心（中）') });
+        let rowAddonTriggerC = new Adw.ActionRow({ title: _('Notification Center (Middle)') });
         rowAddonTriggerC.add_suffix(sAddonTriggerC);
         rowTriggers.add_row(rowAddonTriggerC);
 
@@ -395,7 +395,7 @@ export default class extends ExtensionPreferences {
             settings.set_boolean('addon-trigger-right', state);
         })
         sAddonTriggerR.set_active(settings.get_boolean('addon-trigger-right'))
-        let rowAddonTriggerR = new Adw.ActionRow({ title: _('快速設定（右）') });
+        let rowAddonTriggerR = new Adw.ActionRow({ title: _('Quick Settings (Right)') });
         rowAddonTriggerR.add_suffix(sAddonTriggerR);
         rowTriggers.add_row(rowAddonTriggerR);
 
@@ -433,13 +433,13 @@ export default class extends ExtensionPreferences {
         }
 
         // 向頁面添加組
-        const pageCommon = new Adw.PreferencesPage({ name: "common", title: _("通用設定"), iconName: `dp-panel-generic-symbolic` });
+        const pageCommon = new Adw.PreferencesPage({ name: "common", title: _("General"), iconName: `dp-panel-generic-symbolic` });
         pageCommon.add(gCommon);
-        const pageFloating = new Adw.PreferencesPage({ name: "common", title: _("懸浮模式"), iconName: `dp-panel-floating-symbolic` });
+        const pageFloating = new Adw.PreferencesPage({ name: "common", title: _("Floating Mode"), iconName: `dp-panel-floating-symbolic` });
         pageFloating.add(gFloating);
-        const pageSolid = new Adw.PreferencesPage({ name: "common", title: _("實體模式"), iconName: `dp-panel-solid-symbolic` });
+        const pageSolid = new Adw.PreferencesPage({ name: "common", title: _("Solid Mode"), iconName: `dp-panel-solid-symbolic` });
         pageSolid.add(gSolid);
-        const pageAccessibility = new Adw.PreferencesPage({ name: "common", title: _("無障礙設定"), iconName: `dp-panel-accessibility-symbolic` });
+        const pageAccessibility = new Adw.PreferencesPage({ name: "common", title: _("Accessibility"), iconName: `dp-panel-accessibility-symbolic` });
         pageAccessibility.add(gAccessibility);
 
         // 向窗口添加頁面

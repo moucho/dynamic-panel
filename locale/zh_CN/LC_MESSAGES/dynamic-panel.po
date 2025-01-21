@@ -16,125 +16,125 @@ msgstr ""
 "Plura   \n"
 "X-Generator: Gtranslator 46.1\n"
 
-msgid "通用設定"
+msgid "General"
 msgstr "通用设置"
 
-msgid "懸浮模式"
+msgid "Floating Mode"
 msgstr "悬浮模式"
 
-msgid "實體模式"
+msgid "Solid Mode"
 msgstr "实体模式"
 
-msgid "左側"
+msgid "Left"
 msgstr "左侧"
 
-msgid "居中"
+msgid "Center"
 msgstr "居中"
 
-msgid "右側"
+msgid "Right"
 msgstr "右侧"
 
-msgid "不透明度 (%)"
+msgid "Opacity (%)"
 msgstr "不透明度 (%)"
 
-msgid "應用面板樣式到面板選單"
+msgid "Apply panel style to panel menu"
 msgstr "应用面板样式到面板菜单"
 
-msgid "面板圓角 (%)"
+msgid "Border Radius (%)"
 msgstr "面板圆角 (%)"
 
-msgid "面板長度 (%)"
+msgid "Panel Width (%)"
 msgstr "面板长度 (%)"
 
-msgid "頂部邊距 (px)"
+msgid "Top Margin (px)"
 msgstr "顶部边距 (px)"
 
-msgid "側面邊距 (px)"
+msgid "Side Margin (px)"
 msgstr "侧面边距 (px)"
 
-msgid "對齊方式"
+msgid "Align"
 msgstr "对齐方式"
 
-msgid "自訂顏色"
+msgid "Custom Colors"
 msgstr "自定义颜色"
 
-msgid "暗黑模式"
+msgid "Dark Mode"
 msgstr "暗色模式" 
 
-msgid "明亮模式"
+msgid "Light Mode"
 msgstr "明亮模式"
 
-msgid "背景色"
+msgid "Background Color"
 msgstr "背景颜色"
 
-msgid "前景色"
+msgid "Foreground Color"
 msgstr "前景色"
 
-msgid "應用自訂顏色"
+msgid "Apply Custom Colors"
 msgstr "应用自定义颜色"
 
-msgid "動畫時長 (ms)"
+msgid "Duration (ms)"
 msgstr "动画时长 (ms)"
 
-msgid "檢測方式"
+msgid "Detection Method"
 msgstr "检测方式"
 
-msgid "背景模式"
+msgid "Background Mode"
 msgstr "背景模式"
 
-msgid "自動長度"
+msgid "Auto Width"
 msgstr "自动长度"
 
-msgid "實體類型"
+msgid "Solid Mode Type"
 msgstr "实体类型"
 
-msgid "實體模式保持透明度"
+msgid "Entity Mode Keep Transparency"
 msgstr "实体模式保持透明度"
 
-msgid "敬請期待"
+msgid "Coming Soon"
 msgstr "敬请期待"
 
-msgid "靠近"
+msgid "Window Close"
 msgstr "窗口靠近"
 
-msgid "僅最大化"
+msgid "Maximize Only"
 msgstr "仅最大化"
 
-msgid "整體"
+msgid "Overall"
 msgstr "整体"
 
-msgid "區域"
+msgid "Area"
 msgstr "区域"
 
-msgid "停靠"
+msgid "Dock"
 msgstr "停靠"
 
-msgid "隱藏"
+msgid "Hide"
 msgstr "隐藏"
 
-msgid "多彩"
+msgid "Multicolored"
 msgstr "多彩"
 
-msgid "自動從桌布取得顏色"
+msgid "Automatically get color from wallpaper"
 msgstr "自动从壁纸获取颜色"
 
-msgid "模糊效果"
+msgid "Blur effect"
 msgstr "模糊效果"
 
-msgid "無障礙設定"
+msgid "Accessibility"
 msgstr "无障碍设置"
 
-msgid "盲點補丁"
+msgid "Easy Click Fix"
 msgstr "盲点补丁"
 
-msgid "為懸浮模式添加額外點擊區域，以恢復絕對邊角的點擊能力"
+msgid "Add extra clickable areas for hover mode to restore clickability at absolute corners"
 msgstr "为悬浮模式添加额外点击区域，以恢复绝对边角的点击能力"
 
-msgid "總覽（左）"
+msgid "Overview (Left)"
 msgstr "总览（左）"
 
-msgid "通知中心（中）"
+msgid "Notification Center (Middle)"
 msgstr "通知中心（中）"
 
-msgid "快速設定（右）"
+msgid "Quick Settings (Right)"
 msgstr "快速设置（右）"

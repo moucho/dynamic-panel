@@ -17,125 +17,125 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "通用設定"
+msgid "General"
 msgstr ""
 
-msgid "懸浮模式"
+msgid "Floating Mode"
 msgstr ""
 
-msgid "實體模式"
+msgid "Solid Mode"
 msgstr ""
 
-msgid "左側"
+msgid "Left"
 msgstr ""
 
-msgid "居中"
+msgid "Center"
 msgstr ""
 
-msgid "右側"
+msgid "Right"
 msgstr ""
 
-msgid "不透明度 (%)"
+msgid "Opacity (%)"
 msgstr ""
 
-msgid "應用面板樣式到面板選單"
+msgid "Apply panel style to panel menu"
 msgstr ""
 
-msgid "面板圓角 (%)"
+msgid "Border Radius (%)"
 msgstr ""
 
-msgid "面板長度 (%)"
+msgid "Panel Width (%)"
 msgstr ""
 
-msgid "頂部邊距 (px)"
+msgid "Top Margin (px)"
 msgstr ""
 
-msgid "側面邊距 (px)"
+msgid "Side Margin (px)"
 msgstr ""
 
-msgid "對齊方式"
+msgid "Align"
 msgstr ""
 
-msgid "自訂顏色"
+msgid "Custom Colors"
 msgstr ""
 
-msgid "暗黑模式"
+msgid "Dark Mode"
 msgstr ""
 
-msgid "明亮模式"
+msgid "Light Mode"
 msgstr ""
 
-msgid "背景色"
+msgid "Background Color"
 msgstr ""
 
-msgid "前景色"
+msgid "Foreground Color"
 msgstr ""
 
-msgid "應用自訂顏色"
+msgid "Apply Custom Colors"
 msgstr ""
 
-msgid "動畫時長 (ms)"
+msgid "Duration (ms)"
 msgstr ""
 
-msgid "檢測方式"
+msgid "Detection Method"
 msgstr ""
 
-msgid "背景模式"
+msgid "Background Mode"
 msgstr ""
 
-msgid "自動長度"
+msgid "Auto Width"
 msgstr ""
 
-msgid "實體類型"
+msgid "Solid Mode Type"
 msgstr ""
 
-msgid "實體模式保持透明度"
+msgid "Entity Mode Keep Transparency"
 msgstr ""
 
-msgid "敬請期待"
+msgid "Coming Soon"
 msgstr ""
 
-msgid "靠近"
+msgid "Window Close"
 msgstr ""
 
-msgid "僅最大化"
+msgid "Maximize Only"
 msgstr ""
 
-msgid "整體"
+msgid "Overall"
 msgstr ""
 
-msgid "區域"
+msgid "Area"
 msgstr ""
 
-msgid "停靠"
+msgid "Dock"
 msgstr ""
 
-msgid "隱藏"
+msgid "Hide"
 msgstr ""
 
-msgid "多彩"
+msgid "Multicolored"
 msgstr ""
 
-msgid "自動從桌布取得顏色"
+msgid "Automatically get color from wallpaper"
 msgstr ""
 
-msgid "模糊效果"
+msgid "Blur effect"
 msgstr ""
 
-msgid "無障礙設定"
+msgid "Accessibility"
 msgstr ""
 
-msgid "盲點補丁"
+msgid "Easy Click Fix"
 msgstr ""
 
-msgid "為懸浮模式添加額外點擊區域，以恢復絕對邊角的點擊能力"
+msgid "Add extra clickable areas for hover mode to restore clickability at absolute corners"
 msgstr ""
 
-msgid "總覽（左）"
+msgid "Overview (Left)"
 msgstr ""
 
-msgid "通知中心（中）"
+msgid "Notification Center (Middle)"
 msgstr ""
 
-msgid "快速設定（右）"
+msgid "Quick Settings (Right)"
 msgstr ""
