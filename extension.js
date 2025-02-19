@@ -59,7 +59,10 @@ export default class DynamicPanelExtension extends Extension {
         // 監控總覽界面顯示狀態
         this._actorSignalIds.set(Main.overview, [
             Main.overview.connect("showing", this._updatePanelStyle.bind(this)),
-            Main.overview.connect("hidden", this._updatePanelStyle.bind(this))
+            Main.overview.connect("hidden", ()=>{
+                this._updatePanelStyle();
+                this._updatePanelSingleStyle("allocation-changed")
+            })
         ]);
 
         // 將當前已有窗口加入監控
@@ -200,17 +203,19 @@ export default class DynamicPanelExtension extends Extension {
 
     // 更新樣式
     _updatePanelStyle(forceUpdate = false, forceFloating = null) {
+        if (!Main.layoutManager.primaryMonitor) {
+            return;
+        }
+
         if (typeof forceUpdate != "boolean") forceUpdate = false;
         if (Main.panel.has_style_pseudo_class("overview")) {
+            this._panel.clearPeekEffect();
             this._panel.setBackground(false);
             this._panel.setForeground(false);
             this._panelMenu.setStyle(false);
             this._panel.setAllocation(false);
             this._panel.setRadius(false);
             this._accessibility.AddonTrigger.setAddonTriggers(false);
-            return;
-        }
-        if (!Main.layoutManager.primaryMonitor) {
             return;
         }
 
