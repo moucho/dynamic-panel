@@ -4,6 +4,10 @@
 
 Originally inspired by the floating panel design in KDE Plasma 6, it presents a translucent floating bar effect when there are no windows nearby, and a solid panel style when windows are close. It supports Gnome's dark and light mode switching. You can set custom colors for dark and light modes respectively. And there are more settings!
 
+## Known Issue
+
+GNOME panel experiences brief flickering during workspace transitions or when returning from the overview. This is caused by GNOME's system forcibly resetting panel styles during these actions. As this is an underlying GNOME behavior, there is currently no external fix available. Therefore, this flickering issue is listed as a known and temporarily unresolvable problem.
+
 ## Floating Mode
 ![Floating Mode](readme_images/transparent.png)
 ![Floating Mode](readme_images/transparent_area.png)
