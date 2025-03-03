@@ -11,6 +11,9 @@ Special Thanks (in no particular order)
 Thanks to Gonzague/Paul Fauchon's Transparent Top Bar (Adjustable transparency) for the idea, the implementation of window proximity detection largely refers to this extension
 Thanks to Google Gemini for the help provided in the research and learning of Gjs
 
+Known Issue
+GNOME panel experiences brief flickering during workspace transitions or when returning from the overview. This is caused by GNOME's system forcibly resetting panel styles during these actions. As this is an underlying GNOME behavior, there is currently no external fix available. Therefore, this flickering issue is listed as a known and temporarily unresolvable problem.
+
 👇  See what's new!  Update logs are available on GitHub Releases 👇
 
 動態頂部面板
@@ -25,5 +28,8 @@ Thanks to Google Gemini for the help provided in the research and learning of Gj
 特別鳴謝（排名不分先後）
 感謝 Gonzague/Paul Fauchon 的 Transparent Top Bar (Adjustable transparency) 的思路，對視窗靠近的判定實現思路大量參考了此擴充功能
 感謝 Google Gemini 在研究和學習 Gjs 過程中提供的幫助
+
+已知問題
+GNOME面板在工作區切換或從概觀視圖返回時，會短暫閃爍。這是由於GNOME系統在這些操作中強制重置面板樣式所致。由於這是GNOME的底層行為，目前無法透過外部方式解決，因此此閃爍問題被列為已知且暫無法修復的問題。
 
 👇更新日誌請到GitHub的Releases查看👇
