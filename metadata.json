@@ -9,9 +9,10 @@
   "settings-schema": "org.gnome.shell.extensions.dynamic-panel",
   "shell-version": [
     "46",
-    "47"
+    "47",
+    "48"
   ],
   "url": "https://github.com/velade/dynamic-panel",
   "uuid": "dynamic-panel@velhlkj.com",
-  "version-name": "4.10.1"
+  "version-name": "4.10.2"
 }
