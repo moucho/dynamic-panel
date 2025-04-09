@@ -1,22 +1,25 @@
-#
 # Velade <velade48@gmail.com>, 2024.
+# Aleksandr Shamaraev <delphicoder@bk.ru>, 2025.
+# Egor Vorontsov <sdoregor@sdore.me>, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Dynamic Panel 2.4\n"
 "Report-Msgid-Bugs-To: support@velhlkj.com\n"
 "POT-Creation-Date: 2023-09-07 00:03-0700\n"
-"PO-Revision-Date: 2024-09-15 17:25+1100\n"
-"Last-Translator: Aleksandr Shamaraev <delphicoder@bk.ru>\n"
-"Language-Team: Aleksandr Shamaraev <delphicoder@bk.ru>\n"
+"PO-Revision-Date: 2025-04-10 02:36+0300\n"
+"Last-Translator: Egor Vorontsov <sdoregor@sdore.me>\n"
+"Language-Team: Russian\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Gtranslator 48.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
 msgid "General"
-msgstr "Общие настройки"
+msgstr "Общие"
 
 msgid "Floating Mode"
 msgstr "Плавающий режим"
@@ -46,19 +49,19 @@ msgid "Panel Width (%)"
 msgstr "Ширина панели (%)"
 
 msgid "Top Margin (px)"
-msgstr "Верхнее поле (px)"
+msgstr "Отступ сверху (px)"
 
 msgid "Side Margin (px)"
-msgstr "Боковое поле (px)"
+msgstr "Отступ сбоку (px)"
 
 msgid "Align"
 msgstr "Выравнивание"
 
 msgid "Custom Colors"
-msgstr "Настраиваемые цвета"
+msgstr "Пользовательские цвета"
 
 msgid "Dark Mode"
-msgstr "Темный режим"
+msgstr "Тёмный режим"
 
 msgid "Light Mode"
 msgstr "Светлый режим"
@@ -79,31 +82,35 @@ msgid "Detection Method"
 msgstr "Метод обнаружения"
 
 msgid "Background Mode"
-msgstr "Фоновый режим"
+msgstr "Режим фона"
 
 msgid "Auto Width"
 msgstr "Автоматическая длина"
 
 msgid "Solid Mode Type"
-msgstr "Тип объекта"
+msgstr "Тип сплошного режима"
 
+# Keep menu transparency in Solid Mode
 msgid "Entity Mode Keep Transparency"
-msgstr "Сохранять прозрачность в сплошном режиме"
+msgstr "Сохранять прозрачность меню в сплошном режиме"
 
+# In development
 msgid "Coming Soon"
-msgstr "Ожидайте"
+msgstr "В разработке"
 
 msgid "Window Close"
-msgstr "Закрыть окно"
+msgstr "Окно поблизости"
 
 msgid "Maximize Only"
-msgstr "Только максимизировать"
+msgstr "Развёрнутое окно"
 
+# Entire panel
 msgid "Overall"
-msgstr "Весь"
+msgstr "Вся панель"
 
+# Areas only
 msgid "Area"
-msgstr "Область"
+msgstr "Только области"
 
 msgid "Dock"
 msgstr "Пристыковать"
@@ -111,8 +118,9 @@ msgstr "Пристыковать"
 msgid "Hide"
 msgstr "Скрыть"
 
+# Dynamic color
 msgid "Multicolored"
-msgstr "Разноцветный"
+msgstr "Динамический цвет"
 
 msgid "Automatically get color from wallpaper"
 msgstr "Автоматически получать цвет из обоев"
@@ -121,13 +129,19 @@ msgid "Blur effect"
 msgstr "Размытие"
 
 msgid "Accessibility"
-msgstr "Настройки доступности"
+msgstr "Доступность"
 
+# Easing of clicks
 msgid "Easy Click Fix"
-msgstr "Простое исправление кликов"
+msgstr "Упрощение нажатий"
 
-msgid "Add extra clickable areas for hover mode to restore clickability at absolute corners"
-msgstr "Добавить дополнительные области нажатия для режима зависания, чтобы восстановить возможность нажатия на абсолютные углы"
+# …at display corners
+msgid ""
+"Add extra clickable areas for hover mode to restore clickability at absolute "
+"corners"
+msgstr ""
+"Добавить дополнительные зоны для нажатий в плавающем режиме, чтобы вернуть "
+"возможность нажатия по углам экрана"
 
 msgid "Overview (Left)"
 msgstr "Обзор (слева)"
