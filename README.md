@@ -56,6 +56,7 @@ GNOME面板在工作區切換或從概觀視圖返回時，會短暫閃爍。這
 
 # 翻譯貢獻者（排名不分先後）
 * [Aleksandr Shamaraev](https://github.com/AlexanderShad) - 俄語 (Russian)
+* [Egor Vorontsov](https://github.com/egormanga) - 俄語 (Russian) (修正並改進)
 * [Amerey](https://github.com/Amereyeu) - 捷克語 (Czech)
 * [Ritam Saha](https://github.com/astro-ray) - 英語(印度)
 

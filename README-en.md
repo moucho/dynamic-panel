@@ -56,6 +56,7 @@ Due to Gnome's own css and gjs, CSS3's transition tweening animation is actually
 
 # Translation Contributors (in no particular order)
 * [Aleksandr Shamaraev](https://github.com/AlexanderShad) - Russian
+* [Egor Vorontsov](https://github.com/egormanga) - Russian (Corrected and improved)
 * [Amerey](https://github.com/Amereyeu) - Czech
 * [Ritam Saha](https://github.com/astro-ray) - English(India)
 
